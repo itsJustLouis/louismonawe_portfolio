@@ -112,4 +112,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ---
 
- **Let's connect:** [Portfolio](https://itsjustlouis.github.io/Single_Page_Application_React.JS/) · [LinkedIn](https://www.linkedin.com/in/louis-monawe-aab967251/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bz9iAmnveRVqTr9wfHrvCPQ%3D%3D) · [Email](mailto:l.k.monawe@gmail.com)
+ **Let's connect:** [Portfolio](https://itsjustlouis.github.io/louismonawe_portfolio/) · [LinkedIn](https://www.linkedin.com/in/louis-monawe-aab967251/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bz9iAmnveRVqTr9wfHrvCPQ%3D%3D) · [Email](mailto:l.k.monawe@gmail.com)

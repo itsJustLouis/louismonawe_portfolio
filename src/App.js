@@ -12,7 +12,7 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <React.Fragment >
-      <BrowserRouter basename="/Single_Page_Application_React.JS">
+      <BrowserRouter basename="/louismonawe_portfolio">
         <Routes>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
