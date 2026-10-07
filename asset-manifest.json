@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Single_Page_Application_React.JS/static/css/main.bc3440f0.css",
-    "main.js": "/Single_Page_Application_React.JS/static/js/main.76370042.js",
-    "static/media/magaza.mp4": "/Single_Page_Application_React.JS/static/media/magaza.2e26bf11b241c668d1a3.mp4",
-    "static/media/wow.mp4": "/Single_Page_Application_React.JS/static/media/wow.7acd9b34788810392b84.mp4",
-    "static/media/Fakugesi.mp4": "/Single_Page_Application_React.JS/static/media/Fakugesi.490249ada0cce806f854.mp4",
-    "static/media/Crit3Video.mp4": "/Single_Page_Application_React.JS/static/media/Crit3Video.4fb461184d4c6e122e29.mp4",
-    "static/media/earth.glb": "/Single_Page_Application_React.JS/static/media/earth.f99a1cfac8467d1dfb32.glb",
-    "static/media/Recipe.mp4": "/Single_Page_Application_React.JS/static/media/Recipe.901fce3b74bb76c666ff.mp4",
-    "static/media/plane.glb": "/Single_Page_Application_React.JS/static/media/plane.52b8b6710c6c3ca4367f.glb",
-    "static/media/Routes.mp4": "/Single_Page_Application_React.JS/static/media/Routes.57d78e06735346f3f93b.mp4",
-    "static/media/hero.png": "/Single_Page_Application_React.JS/static/media/hero.32df0e5a396db0daec7c.png",
-    "static/media/bhaghi.png": "/Single_Page_Application_React.JS/static/media/bhaghi.1362471924f8701fc09e.png",
-    "static/media/TeacherRecord.jpg": "/Single_Page_Application_React.JS/static/media/TeacherRecord.3fc1bc585382a7745b79.jpg",
-    "index.html": "/Single_Page_Application_React.JS/index.html",
-    "static/media/arrow.svg": "/Single_Page_Application_React.JS/static/media/arrow.63f801a2f276522a9886e4603b6e5bf1.svg",
-    "main.bc3440f0.css.map": "/Single_Page_Application_React.JS/static/css/main.bc3440f0.css.map",
-    "main.76370042.js.map": "/Single_Page_Application_React.JS/static/js/main.76370042.js.map"
+    "main.css": "/louismonawe_portfolio/static/css/main.bc3440f0.css",
+    "main.js": "/louismonawe_portfolio/static/js/main.f8d010b9.js",
+    "static/media/magaza.mp4": "/louismonawe_portfolio/static/media/magaza.2e26bf11b241c668d1a3.mp4",
+    "static/media/wow.mp4": "/louismonawe_portfolio/static/media/wow.7acd9b34788810392b84.mp4",
+    "static/media/Fakugesi.mp4": "/louismonawe_portfolio/static/media/Fakugesi.490249ada0cce806f854.mp4",
+    "static/media/Crit3Video.mp4": "/louismonawe_portfolio/static/media/Crit3Video.4fb461184d4c6e122e29.mp4",
+    "static/media/earth.glb": "/louismonawe_portfolio/static/media/earth.f99a1cfac8467d1dfb32.glb",
+    "static/media/Recipe.mp4": "/louismonawe_portfolio/static/media/Recipe.901fce3b74bb76c666ff.mp4",
+    "static/media/plane.glb": "/louismonawe_portfolio/static/media/plane.52b8b6710c6c3ca4367f.glb",
+    "static/media/Routes.mp4": "/louismonawe_portfolio/static/media/Routes.57d78e06735346f3f93b.mp4",
+    "static/media/hero.png": "/louismonawe_portfolio/static/media/hero.32df0e5a396db0daec7c.png",
+    "static/media/bhaghi.png": "/louismonawe_portfolio/static/media/bhaghi.1362471924f8701fc09e.png",
+    "static/media/TeacherRecord.jpg": "/louismonawe_portfolio/static/media/TeacherRecord.3fc1bc585382a7745b79.jpg",
+    "index.html": "/louismonawe_portfolio/index.html",
+    "static/media/arrow.svg": "/louismonawe_portfolio/static/media/arrow.851f225955ddf2082199bae23fcc522f.svg",
+    "main.bc3440f0.css.map": "/louismonawe_portfolio/static/css/main.bc3440f0.css.map",
+    "main.f8d010b9.js.map": "/louismonawe_portfolio/static/js/main.f8d010b9.js.map"
   },
   "entrypoints": [
     "static/css/main.bc3440f0.css",
-    "static/js/main.76370042.js"
+    "static/js/main.f8d010b9.js"
   ]
 }
