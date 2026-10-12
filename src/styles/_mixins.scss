@@ -1,0 +1,17 @@
+// Breakpoints (mirrors the Layout section of the style guide)
+$bp-sm: 560px;
+$bp-md: 820px;
+$bp-lg: 1080px;
+$bp-xl: 1360px;
+
+@mixin up($bp) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}
+
+@mixin down($bp) {
+  @media (max-width: ($bp - 1px)) {
+    @content;
+  }
+}

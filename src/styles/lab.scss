@@ -1,0 +1,60 @@
+@use "./mixins" as *;
+
+.lab {
+  position: relative;
+  min-height: 100vh;
+  background: radial-gradient(100% 80% at 50% 30%, #1a1240 0%, var(--bg) 70%);
+}
+
+.lab__bar {
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--nav-height);
+  padding-inline: var(--gutter);
+
+  > a:first-child {
+    text-decoration: none;
+  }
+}
+
+.lab__hint {
+  position: fixed;
+  left: 50%;
+  bottom: var(--space-6);
+  z-index: 20;
+  transform: translateX(-50%);
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+// Info cards sit inside ThreeDMain's overlay.
+.lab-card {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-4);
+  max-width: 34rem;
+  margin: calc(var(--nav-height) + var(--space-2)) var(--space-4) 0;
+  padding: var(--space-6);
+  border-radius: var(--radius-lg);
+  background: rgba(20, 16, 51, 0.82);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--elevation-2);
+  text-align: center;
+  color: var(--text-secondary);
+
+  h1 {
+    font-size: var(--text-xl);
+    font-weight: 750;
+    color: var(--text-primary);
+    letter-spacing: -0.02em;
+  }
+}
+
+.lab-card--credits {
+  font-size: var(--text-sm);
+}

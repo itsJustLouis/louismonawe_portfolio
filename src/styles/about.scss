@@ -1,0 +1,114 @@
+@use "./mixins" as *;
+
+.about {
+  display: grid;
+  gap: var(--space-10);
+
+  @include up($bp-md) {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.3fr);
+    gap: var(--space-16);
+    align-items: start;
+  }
+}
+
+.about__photo {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: radial-gradient(90% 70% at 50% 35%, var(--violet-500) 0%, var(--ink-700) 55%, var(--ink-800) 100%);
+  aspect-ratio: 4 / 5;
+
+  img {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 94%;
+    width: auto;
+    max-width: none;
+    transform: translateX(-50%);
+  }
+
+  @include up($bp-md) {
+    position: sticky;
+    top: calc(var(--nav-height) + var(--space-6));
+  }
+}
+
+.about__text {
+  display: grid;
+  gap: var(--space-5);
+
+  .t-lead {
+    color: var(--text-primary);
+    margin-bottom: var(--space-2);
+  }
+}
+
+.about__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.about__block {
+  margin-top: var(--space-24);
+
+  > .t-h2 {
+    margin-bottom: var(--space-10);
+  }
+}
+
+/* ---------- Timeline ---------- */
+
+.timeline {
+  display: grid;
+}
+
+.timeline__item {
+  display: grid;
+  gap: var(--space-2);
+  padding-block: var(--space-6);
+  border-top: 1px solid var(--border);
+
+  &:last-child {
+    border-bottom: 1px solid var(--border);
+  }
+
+  @include up($bp-md) {
+    grid-template-columns: 200px 1fr;
+    gap: var(--space-8);
+  }
+
+  .t-body {
+    margin-top: var(--space-2);
+  }
+}
+
+.timeline__period {
+  padding-top: 4px;
+  font-variant-numeric: tabular-nums;
+}
+
+.timeline__org {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* ---------- Toolkit ---------- */
+
+.toolkit {
+  display: grid;
+  gap: var(--space-10);
+
+  @include up($bp-md) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-8);
+  }
+}
+
+.toolkit__group {
+  display: grid;
+  gap: var(--space-4);
+  align-content: start;
+}

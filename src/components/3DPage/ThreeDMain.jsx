@@ -1,6 +1,6 @@
 //tutorial video watched: https://www.youtube.com/watch?v=FkowOdMjvYo
 
-import { React, Suspense, useState } from "react";
+import React, { Suspense, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import Loader from "./Loader";
 import SpaceModel from "./Models/SpaceStation";

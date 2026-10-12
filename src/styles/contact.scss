@@ -1,0 +1,70 @@
+@use "./mixins" as *;
+
+.contact {
+  display: grid;
+  gap: var(--space-12);
+
+  @include up($bp-lg) {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-20);
+    align-items: start;
+  }
+}
+
+.contact__intro {
+  display: grid;
+  gap: var(--space-6);
+}
+
+.contact__details {
+  display: grid;
+  gap: var(--space-5);
+  margin-top: var(--space-4);
+  padding-top: var(--space-6);
+  border-top: 1px solid var(--border);
+
+  @include up($bp-sm) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  dt {
+    font-size: var(--text-sm);
+    color: var(--text-muted);
+    margin-bottom: var(--space-1);
+  }
+
+  dd {
+    overflow-wrap: anywhere;
+  }
+}
+
+.contact__social {
+  display: flex;
+  gap: var(--space-4);
+}
+
+.contact__form {
+  display: grid;
+  gap: var(--space-6);
+  padding: clamp(var(--space-6), 4vw, var(--space-10));
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--elevation-1);
+
+  .btn {
+    justify-self: start;
+  }
+}
+
+.contact__status {
+  min-height: 1.6em;
+  font-size: var(--text-sm);
+
+  .is-success {
+    color: var(--success);
+  }
+
+  .is-error {
+    color: var(--danger);
+  }
+}

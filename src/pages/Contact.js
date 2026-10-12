@@ -1,13 +1,15 @@
 import React from "react";
-import NavBar from "../components/NavBar";
+import Layout from "../components/layout/Layout";
 import ContactContent from "../components/ContactContent";
 
 function Contact() {
-    return (
-        <main>
-            <NavBar />
-            <ContactContent />
-        </main>
-    )
+  return (
+    <Layout title="Contact" hideFooterCta>
+      <div className="page container">
+        <ContactContent />
+      </div>
+    </Layout>
+  );
 }
+
 export default Contact;
