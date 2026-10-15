@@ -33,6 +33,7 @@ import NutrixPromoVideo from "../videos/NutrixEats_Advertisement.mp4";
 import NutrixWalkthroughVideo from "../videos/NutrixWalkthrough.mp4";
 import AbsaCryptoHubVideo from "../videos/absacrypto.mp4";
 import translanguagingVideo from "../videos/Translademia_Walkthrough.mp4";
+import WashBookVideo from "../videos/Washbook_Walkthrough.mp4";
 
 const projects = [
   {
@@ -41,7 +42,7 @@ const projects = [
     year: "2025 – present",
     role: "Co-Founder, designer and developer",
     tags: ["Next.js", "Supabase", "Figma", "Product strategy", "UX/UI design", "Web development", "Business workflows", "Design systems", "Accessibility"],
-    video: null,
+    video: WashBookVideo,
     link: null,
     featured: true,
   },
