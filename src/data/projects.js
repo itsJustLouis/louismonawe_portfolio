@@ -37,8 +37,8 @@ import WashBookVideo from "../videos/Washbook_Walkthrough.mp4";
 
 const projects = [
   {
-    title: "WashBook",
-    description: "WashBook is a car wash booking platform for South Africa, it went from Concept to Figma to a live product. It lets a driver book a wash in under a minute, with no queues and no unanswered WhatsApp messages. Drivers find a nearby wash and see the exact price for their sedan, SUV or bakkie before they commit. They can only pick a time when a bay is actually free, and they pay in person when they arrive. Car washes get a dashboard that turns scattered calls and chats into one live schedule. They approve, reschedule or decline requests from their phone and manage their services, prices, hours and photos, and any request they leave unanswered expires on its own, so no customer is left waiting. Every business is vetted before it goes live. Prices, capacity and privacy are enforced on the server rather than in the browser, so bookings can’t be faked or double-booked and no one sees anyone else’s data. Ratings run both ways to keep washes reliable and customers honest. It runs on Next.js, TypeScript and Supabase on Vercel.",
+    title: "Car Wash-Book",
+    description: "Car Wash-Book is a car wash booking platform for South Africa, which has 3 platforms, Customer Dashboard, Merchant Dashboard and Admin Dashboard. It lets you book a wash in under a minute, with no queues and no unanswered orders. Drivers find a nearby wash and see the exact price for their Vehicle before they commit. They can only pick a time when a bay is actually free, and they pay in person when they arrive. Car washes get a dashboard that turns bookings into a live schedule. They approve, reschedule or decline requests from their phone and manage their services, prices, hours and photos, and any request they leave unanswered expires on its own, so no customer is left waiting. Every business is vetted before it goes live. Ratings run both ways to keep washes reliable and customers honest. It runs on Next.js, TypeScript and Supabase on Vercel.",
     year: "2025 – present",
     role: "Co-Founder, designer and developer",
     tags: ["Next.js", "Supabase", "Figma", "Product strategy", "UX/UI design", "Web development", "Business workflows", "Design systems", "Accessibility"],
@@ -98,7 +98,7 @@ const projects = [
   },
   {
     title: "Sim-Life",
-    description: "A simulation game about managing a virtual character's life, exploring how to simulate AI-driven behaviour in the spirit of The Sims. I led the project and designed and developed the game in Unity and C#, with Python scripts for the AI behaviour.",
+    description: "A simulation game about managing a virtual character's life, exploring how to simulate AI-driven behaviour in the spirit of The Sims. I led the project and designed and developed the game in Unity and C#, with Python scripts for the AI behaviour. Contact me for a playable version.",
     year: 2024,
     role: "Project manager, game designer and developer",
     tags: ["Unity", "C#", "Python", "Game design"],

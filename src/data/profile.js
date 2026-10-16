@@ -18,10 +18,10 @@ const profile = {
 
   about: [
     "I'm a strategist at heart. Give me a messy problem and I'll break it down, find what actually matters and plan a way through it. Then I can help do the work, whether that's analysing the numbers, designing the experience or writing the code.",
-    "I've started several ventures of my own, so I'm at home on the business side: business models, priorities, trade-offs and what things really cost.",
-    "By day I develop curriculum for Digital Design at Eduvos, writing lesson material, assessment briefs and rubrics. It has taught me to explain complex ideas simply and to back every decision with a reason.",
-    "My research looks at what drives schools to adopt AI-based translanguaging tools, from designing the survey instrument to collecting and analysing teachers' responses.",
+    "I've started several ventures of my own and with others, so I'm at home on the business side: business models, priorities, trade-offs and what things really cost.",
+    "By day I develop curriculum for Graphic and Digital Design at Eduvos, writing lesson material, assessment briefs and coordinating the Modules. It has taught me to explain complex ideas simply and to back every decision with a reason.",
     "My background spans digital arts, game design, web and application development, and software problem-solving. I enjoy connecting technical implementation with user needs, business goals and the wider context in which a product will be used.",
+    "I am currently in Progress with my Master's Degree, My research looks at what drives schools to adopt AI-based translanguaging tools, from designing the survey instrument to collecting and analysing teachers' responses.",
     "I am developing an AI-powered multilingual education tool focused on helping South African teachers support learners across language barriers. This work connects software prototyping, educational technology, language research and the practical challenges of implementing AI in classrooms.",
     "Alongside my professional work, I contribute to higher education through tutoring and academic support in Digital Arts and Game Design at Wits. I have experience explaining technical and creative concepts, supporting student projects and helping learners turn ideas into working outcomes.",
     "My design and development interests include web applications, UX/UI, interactive experiences, game-based learning, digital innovation and tools that solve practical problems. I approach projects from both the user's perspective and the perspective of the people who must build, maintain and sustain them.",
@@ -29,7 +29,7 @@ const profile = {
 
   experience: [
     {
-      title: "Founder",
+      title: "Co-Founder",
       org: "Boba Tea Studios, WashBook, Nutrix and other ventures",
       period: "2024 – present",
       detail: "Strategy, business models, design and build for my own ventures.",
@@ -43,9 +43,9 @@ const profile = {
     },
     {
       title: "Winner, Absa Design Hackathon",
-      org: "Absa CryptoHub",
+      org: "ABSA",
       period: "2024",
-      detail: "Designed a fintech UX prototype that took first place.",
+      detail: "Designed a fintech UX prototype that took first place. It was a crypto banking experience that made it easy for users to manage their crypto alongside their everyday banking.",
     },
     {
       title: "Freelance web designer and developer",
@@ -56,20 +56,20 @@ const profile = {
     {
       title: "Digital Arts and Game Design Tutor",
       org: "University of the Witwatersrand (Wits)",
-      period: "2025 – present",
+      period: "2025 – 2026",
       detail:
-        "Support undergraduate learning through tutorials, student guidance, project feedback and academic support in Digital Arts and Game Design. Help students understand creative, technical and theoretical concepts and apply them in practical work.",
+        "Support undergraduate learning through tutorials, student guidance, project feedback and academic support in Digital Arts, Game Design and Interactive Media. Help students understand creative, technical and theoretical concepts and apply them in practical work.",
     },
     {
-      title: "MA Researcher: Digital Arts and Educational Technology",
+      title: "MA Candidate: Digital Arts and Educational Technology",
       org: "University of the Witwatersrand (Wits)",
       period: "2025 – present",
       detail:
-        "Researching critical factors influencing the adoption of AI-powered translanguaging technologies in South African schools. Work includes literature review, research design, structured questionnaire development, technology adoption frameworks, and analysis of the relationship between language, policy, teaching practice and educational technology.",
+        "Researching critical factors influencing the adoption of AI-powered translanguaging technologies in South African schools. Work includes literature review, research design, structured questionnaire development, technology adoption frameworks, and analysis of the relationship between language, policy, teaching practice and educational technology. Alongside that, I am prototyping an AI-assisted translation tool for multilingual education using Hugging Face, Gradio and the NLLB translation model.",
     },
     {
       title: "AI and Multilingual Education Technology Developer",
-      org: "Independent Project",
+      org: "Master's Research Project",
       period: "2025 – present",
       detail:
         "Prototyping an AI-assisted translation tool for multilingual education using Hugging Face, Gradio and the NLLB translation model. Exploring ways to support communication across South African languages and make multilingual classroom technology more practical for teachers and learners.",
@@ -77,9 +77,9 @@ const profile = {
     {
       title: "Software Developer",
       org: "Nutrix Tech and Independent Projects",
-      period: "2023 – present",
+      period: "2023 – 2025",
       detail:
-        "Developing and exploring web applications, business workflows and digital products. Work includes Django application development, user-role structures, interface planning and translating business needs into software features.",
+        "For Nutrix, We built a platform similar to Uber Eats that allows students to order food from their campus restaurants, on another side it also allowed students to apply as Runners who would go collect food and deliver to other students, heling them make income. The application has 3 phases, Customer, Merchant and Admin Dashboards.",
     },
     {
       title: "Game Design and Interactive Experience Developer",
@@ -91,9 +91,9 @@ const profile = {
     {
       title: "Digital Innovation and Community Leadership",
       org: "Wits Coding & Digital Innovations Society",
-      period: "2023 – present",
+      period: "2022 – 2025",
       detail:
-        "Contributed to student-focused digital innovation and technology initiatives, connecting coding, creative technology and collaborative learning.",
+        "Contributed to student-focused digital innovation and technology initiatives, connecting coding, creative technology and collaborative learning. Specifically, I helped lead the society's digital innovation projects, including a student-run digital innovation lab and a series of workshops and events that explored coding, design and technology for social impact. I went from being a member in 2023, to being the society's project coordinator in 2024, and then the society's deputy president in 2025, where I helped lead the society's overall direction and strategy.",
     },
   ],
 
@@ -186,7 +186,7 @@ const profile = {
         "Research methodology",
         "Structured questionnaire design",
         "Technology adoption frameworks",
-        "Quantitative research design",
+        "Quantitative & Qualitative research design",
         "Research ethics documentation",
         "Critical analysis",
         "Language and technology research",
@@ -220,6 +220,14 @@ const profile = {
         "Business development",
         "Product prototyping",
         "Independent project development",
+        "Team leadership",
+        "Digital innovation initiatives",
+        "Community engagement",
+        "Student mentorship",
+        "Workshop facilitation",
+        "Event planning",
+        "Stakeholder communication",
+        "Project Management",
       ],
     },
   ],
