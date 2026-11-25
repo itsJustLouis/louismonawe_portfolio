@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/louismonawe_portfolio/static/css/main.e8cce2e7.css",
-    "main.js": "/louismonawe_portfolio/static/js/main.fb1e8093.js",
+    "main.css": "/louismonawe_portfolio/static/css/main.6b04df25.css",
+    "main.js": "/louismonawe_portfolio/static/js/main.83ef64cf.js",
     "static/media/Washbook_Walkthrough.mp4": "/louismonawe_portfolio/static/media/Washbook_Walkthrough.7a0aaf5f8b372519d5a1.mp4",
     "static/media/NutrixEats_Advertisement.mp4": "/louismonawe_portfolio/static/media/NutrixEats_Advertisement.090aade118a8c35c4ad1.mp4",
     "static/media/GaicLab_Walkthrough.mp4": "/louismonawe_portfolio/static/media/GaicLab_Walkthrough.2ba9eb452df8c65de9a5.mp4",
@@ -17,7 +17,13 @@
     "static/media/Routes.mp4": "/louismonawe_portfolio/static/media/Routes.57d78e06735346f3f93b.mp4",
     "static/media/hero.webp": "/louismonawe_portfolio/static/media/hero.3e829b5b092a060a124e.webp",
     "static/media/bricolage-grotesque-latin-standard-normal.woff2": "/louismonawe_portfolio/static/media/bricolage-grotesque-latin-standard-normal.e956cf557f2fb3fb7bed.woff2",
+    "static/media/digra-cover.webp": "/louismonawe_portfolio/static/media/digra-cover.7c4a308bfae3216109b2.webp",
+    "static/media/finla-cover.webp": "/louismonawe_portfolio/static/media/finla-cover.abbe261d93d171e7efc8.webp",
+    "static/media/digra-events.webp": "/louismonawe_portfolio/static/media/digra-events.7d462a832ff6b0eda162.webp",
     "static/media/bricolage-grotesque-latin-ext-standard-normal.woff2": "/louismonawe_portfolio/static/media/bricolage-grotesque-latin-ext-standard-normal.a84345800ca1888afc1e.woff2",
+    "static/media/digra-start.webp": "/louismonawe_portfolio/static/media/digra-start.f20e7f8afede4d0bae8f.webp",
+    "static/media/finla-stages.webp": "/louismonawe_portfolio/static/media/finla-stages.cff824fc742f8038c39c.webp",
+    "static/media/finla-brand.webp": "/louismonawe_portfolio/static/media/finla-brand.73740d7f05b1bbeb2efa.webp",
     "static/media/jetbrains-mono-latin-500-normal.woff": "/louismonawe_portfolio/static/media/jetbrains-mono-latin-500-normal.b6ddca2679c2b4a27c68.woff",
     "static/media/jetbrains-mono-latin-400-normal.woff": "/louismonawe_portfolio/static/media/jetbrains-mono-latin-400-normal.1fef352a4021940e309a.woff",
     "static/media/bricolage-grotesque-vietnamese-standard-normal.woff2": "/louismonawe_portfolio/static/media/bricolage-grotesque-vietnamese-standard-normal.315cef462476639efb58.woff2",
@@ -46,7 +52,7 @@
     "static/media/jetbrains-mono-cyrillic-ext-400-normal.woff2": "/louismonawe_portfolio/static/media/jetbrains-mono-cyrillic-ext-400-normal.7347c7bfed47f1ef0b25.woff2"
   },
   "entrypoints": [
-    "static/css/main.e8cce2e7.css",
-    "static/js/main.fb1e8093.js"
+    "static/css/main.6b04df25.css",
+    "static/js/main.83ef64cf.js"
   ]
 }
