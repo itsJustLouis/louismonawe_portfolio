@@ -48,10 +48,11 @@ const profile = {
       detail: "Designed a fintech UX prototype that took first place. It was a crypto banking experience that made it easy for users to manage their crypto alongside their everyday banking.",
     },
     {
-      title: "Freelance web designer and developer",
+      title: "Freelance designer and developer: brands and websites",
       org: "Independent",
-      period: "2023 – [present]",
-      detail: "Websites and web apps for clients, including an Academic Reseach Lab site, E-commerce sites, and portfolios.",
+      period: "2023 – present",
+      detail:
+        "Brand identities, websites and web apps for clients: the full brand identity and website for Finla Group, the UI/UX and build (with a co-developer) of the DiGRA South Africa website, an academic research lab site, e-commerce sites and portfolios.",
     },
     {
       title: "Digital Arts and Game Design Tutor",
@@ -253,6 +254,11 @@ const profile = {
       title: "Design and communication",
       body:
         "User flows, wireframes and design systems in Figma, and writing that makes complex ideas easy to follow.",
+    },
+    {
+      title: "Brand identity and websites",
+      body:
+        "Logos, colour and type systems and brand guidelines, then the website that carries them: designed, built, hosted and handed over.",
     },
     {
       title: "Product discovery and prototyping",

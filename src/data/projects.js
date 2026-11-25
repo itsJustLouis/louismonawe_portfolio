@@ -15,6 +15,10 @@
 //   tags         Tools or skills, shown as small labels.           (optional)
 //   video        File name in public/videos/, or null if you don't have one yet
 //                (the thumbnail then says "Video coming soon").
+//   images       Optional screenshots instead of a video: a list of
+//                { src, alt }. The first one is the thumbnail; selecting it opens
+//                a gallery. Put the files in src/images/projects/ and import them.
+//                If a project has both, the video wins.
 //   link         A live site or repo, e.g. "https://gaiclab.co.za/". Or null.
 //   featured     true = also shown on the homepage.
 //
@@ -35,6 +39,14 @@ import AbsaCryptoHubVideo from "../videos/absacrypto.mp4";
 import translanguagingVideo from "../videos/Translademia_Walkthrough.mp4";
 import WashBookVideo from "../videos/Washbook_Walkthrough.mp4";
 
+// Screenshots for projects shown as image galleries.
+import finlaCover from "../images/projects/finla-cover.webp";
+import finlaBrand from "../images/projects/finla-brand.webp";
+import finlaStages from "../images/projects/finla-stages.webp";
+import digraCover from "../images/projects/digra-cover.webp";
+import digraStart from "../images/projects/digra-start.webp";
+import digraEvents from "../images/projects/digra-events.webp";
+
 const projects = [
   {
     title: "Car Wash-Book",
@@ -44,6 +56,38 @@ const projects = [
     tags: ["Next.js", "Supabase", "Figma", "Product strategy", "UX/UI design", "Web development", "Business workflows", "Design systems", "Accessibility"],
     video: WashBookVideo,
     link: null,
+    featured: true,
+  },
+  {
+    title: "Finla Group",
+    description:
+      "Brand identity and website for Finla Group, a firm that gets South African small businesses' books, CIPC and SARS compliance and funding applications in order. I designed the identity from scratch: a sprouting F symbol, a custom wordmark, the colour palette, typography and brand guidelines. Then I designed and built the seven-page website with light and dark modes and an accessible enquiry form, and set up the domain, hosting and business email.",
+    year: "2026",
+    role: "Brand designer, web designer and developer",
+    tags: ["Brand identity", "Logo design", "Brand guidelines", "Web design", "Web development", "Accessibility", "Hosting and email setup"],
+    video: null,
+    images: [
+      { src: finlaCover, alt: "The Finla Group website in dark mode, light mode and on a phone" },
+      { src: finlaBrand, alt: "Finla Group brand board: the sprouting F symbol, the green and cream palette, and the Fraunces and Jost typefaces" },
+      { src: finlaStages, alt: "The 'Three stages, one team' section of the Finla Group homepage" },
+    ],
+    link: "https://finlagroup.com",
+    featured: true,
+  },
+  {
+    title: "DiGRA South Africa",
+    description:
+      "The website for DiGRA South Africa, the South African chapter of the Digital Games Research Association. I designed the UI/UX, a bold, game-inspired look with clear paths in for students, researchers and industry, and built the site with Lindokuhle Dlamini: events, news, membership and an admin area the board uses to keep content up to date.",
+    year: "2026 – present",
+    role: "UI/UX designer and co-developer",
+    tags: ["UX/UI design", "Information architecture", "React", "Tailwind CSS", "Content management", "Accessibility"],
+    video: null,
+    images: [
+      { src: digraCover, alt: "The DiGRA South Africa homepage on a laptop and a phone" },
+      { src: digraStart, alt: "The 'Start Here' section with paths for students, researchers and industry" },
+      { src: digraEvents, alt: "The DiGRA South Africa events page" },
+    ],
+    link: "https://digrasa.co.za",
     featured: true,
   },
   {

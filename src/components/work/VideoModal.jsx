@@ -1,23 +1,34 @@
-import React, { useEffect, useRef } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { videoSrc } from "../../data/projects";
 
-// Full-screen player. Closes on Escape, backdrop click or the close button.
+// Full-screen viewer. Plays the project's video, or shows its screenshots as a gallery
+// (arrow keys or the Previous/Next buttons). Closes on Escape, backdrop click or Close.
 function VideoModal({ item, onClose }) {
   const closeRef = useRef(null);
+  const video = videoSrc(item.video);
+  const images = !video && item.images?.length ? item.images : [];
+  const [index, setIndex] = useState(0);
+  const count = images.length;
+
+  const go = useCallback((step) => setIndex((i) => (i + step + count) % count), [count]);
 
   useEffect(() => {
     const previous = document.activeElement;
     closeRef.current?.focus();
     document.body.style.overflow = "hidden";
-    const onKey = (e) => e.key === "Escape" && onClose();
+    const onKey = (e) => {
+      if (e.key === "Escape") onClose();
+      if (count > 1 && e.key === "ArrowRight") go(1);
+      if (count > 1 && e.key === "ArrowLeft") go(-1);
+    };
     window.addEventListener("keydown", onKey);
     return () => {
       document.body.style.overflow = "";
       window.removeEventListener("keydown", onKey);
       previous?.focus?.();
     };
-  }, [onClose]);
+  }, [onClose, go, count]);
 
   return (
     <motion.div
@@ -38,7 +49,26 @@ function VideoModal({ item, onClose }) {
         transition={{ duration: 0.42, ease: [0.16, 1, 0.3, 1] }}
         onClick={(e) => e.stopPropagation()}
       >
-        <video src={videoSrc(item.video)} controls autoPlay playsInline />
+        {video ? (
+          <video src={video} controls autoPlay playsInline />
+        ) : (
+          <div className="gallery">
+            <img key={images[index].src} src={images[index].src} alt={images[index].alt || item.title} />
+            {count > 1 && (
+              <div className="gallery__nav">
+                <button type="button" className="btn btn--secondary btn--sm" onClick={() => go(-1)}>
+                  Previous
+                </button>
+                <span className="gallery__count" aria-live="polite">
+                  {index + 1} of {count}
+                </span>
+                <button type="button" className="btn btn--secondary btn--sm" onClick={() => go(1)}>
+                  Next
+                </button>
+              </div>
+            )}
+          </div>
+        )}
         <figcaption>
           <div>
             <h2 className="t-h3">{item.title}</h2>
